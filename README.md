@@ -4,13 +4,11 @@ For blind denoising, we optimize the [Deep Image Prior](http://openaccess.thecvf
 
 To determine the quality of reconstructed image, the blind image assessment network based on MobileNet is presented to estimate the scores of image quality. 
 
-The experimental results show that our proposed method has a good noise suppression for the enhanced dark endoscopic images from the view of the visual quality.
-
 
 
 ## Architecture
 
-![architecture](README\architecture.png)
+![architecture](README/architecture.png)
 
 ## Dependencies
 
@@ -101,7 +99,7 @@ You can download the trained model from [here](https://cloud.tsinghua.edu.cn/d/1
 
 #### Some reconstructed images
 
-![1](README\result1.png)
+![1](README/result1.png)
 
 #### Mobilenet training loss
 
