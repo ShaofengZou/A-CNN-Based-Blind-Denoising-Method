@@ -107,9 +107,11 @@ You can download the trained model from [here](https://cloud.tsinghua.edu.cn/d/1
 
 <img src="result\PolyU_Mulit_UN_GN\first stage.png" alt="first stage" style="zoom: 80%;" />
 
-#### Best reconstruct image and denoised image choosen by BIQAN
+#### Denoised effect
 
-<img src="result\CC_Resume_All32\d800_iso1600_2_Compare.png" alt="d800_iso1600_2_Compare" style="zoom:80%;" />
+|             clean image              |             noisy image              |                        denoised image                        |
+| :----------------------------------: | :----------------------------------: | :----------------------------------------------------------: |
+| ![a](README/d800_iso1600_2_mean.png) | ![b](README/d800_iso1600_2_real.png) | <img src="README/d800_iso1600_2_BIQAN.png" alt="c" style="zoom:100%;" /> |
 
 
 
