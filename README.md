@@ -69,13 +69,13 @@ So you can simply download the reconstructed images from [here](https://cloud.ts
 
 ##### Step2. Train the blind image quality assessment network
 
-> python train_BIQAN.py   --dataset_image_path dataset/PolyU/PolyU_Mulit_UN_GN\
+> python train_BIQAN.py   --dataset_image_path dataset/PolyU/PolyU_Mulit_UN_GN \
 >
-> ​            								--dataset_file_path dataset/PolyU/PolyU_Mulit_UN_GN_PNSR.txt\
+> ​            								--dataset_file_path dataset/PolyU/PolyU_Mulit_UN_GN_PNSR.txt \
 >
-> ​            								--output_checkpoint checkpoint/PolyU_Mulit_UN_GN/mobilenet\
+> ​            								--output_checkpoint checkpoint/PolyU_Mulit_UN_GN/mobilenet \
 >
-> ​            								--output_path result/PolyU_Mulit_UN_GN\
+> ​            								--output_path result/PolyU_Mulit_UN_GN \
 >
 > ​            								--epochs 40 --lr 1e-3 --gpu_id 3
 
