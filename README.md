@@ -75,9 +75,9 @@ So you can simply download the reconstructed images from [here](https://cloud.ts
 
 ##### Step2. Train the blind image quality assessment network
 
-> python train_BIQAN.py   --dataset_image_path dataset/PolyU/PolyU_Mulit_UN_GN \
+> python train_BIQAN.py   --dataset_image_path dataset/PolyU_Mulit_UN_GN \
 >
-> ​            								--dataset_file_path dataset/PolyU/PolyU_Mulit_UN_GN_PNSR.txt \
+> ​            								--dataset_file_path dataset/PolyU_Mulit_UN_GN_PNSR.txt \
 >
 > ​            								--output_checkpoint checkpoint/PolyU_Mulit_UN_GN/mobilenet \
 >
@@ -95,7 +95,7 @@ You can download the trained model from [here](https://cloud.tsinghua.edu.cn/d/1
 
 ##### Step3. Test the blind image quality assessment network
 
-> python test_BIQAN.py --dataset_image_path dataset/CC/CC_Resume_All32 \
+> python test_BIQAN.py --dataset_image_path dataset/CC_Resume_All32 \
 >
 > ​            							--pre_trained_model checkpoint/PolyU_Mulit_UN_GN/mobilenet/weights.004-0.046.hdf5 \
 >
