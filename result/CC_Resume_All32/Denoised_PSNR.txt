@@ -1,0 +1,17 @@
+1: 5dmark3_iso3200_1, gt PSNR: 40.841dB, denoised PSNR: 40.83dB, loss: 0.01dB
+2: 5dmark3_iso3200_2, gt PSNR: 36.673dB, denoised PSNR: 36.65dB, loss: 0.02dB
+3: 5dmark3_iso3200_3, gt PSNR: 36.723dB, denoised PSNR: 36.30dB, loss: 0.42dB
+4: d600_iso3200_1, gt PSNR: 34.992dB, denoised PSNR: 34.97dB, loss: 0.02dB
+5: d600_iso3200_2, gt PSNR: 36.710dB, denoised PSNR: 35.88dB, loss: 0.83dB
+6: d600_iso3200_3, gt PSNR: 41.370dB, denoised PSNR: 41.19dB, loss: 0.18dB
+7: d800_iso1600_1, gt PSNR: 38.592dB, denoised PSNR: 38.39dB, loss: 0.20dB
+8: d800_iso1600_2, gt PSNR: 41.942dB, denoised PSNR: 41.94dB, loss: 0.01dB
+9: d800_iso1600_3, gt PSNR: 38.648dB, denoised PSNR: 37.99dB, loss: 0.65dB
+10: d800_iso3200_1, gt PSNR: 39.950dB, denoised PSNR: 39.76dB, loss: 0.19dB
+11: d800_iso3200_2, gt PSNR: 37.171dB, denoised PSNR: 35.59dB, loss: 1.59dB
+12: d800_iso3200_3, gt PSNR: 42.095dB, denoised PSNR: 41.22dB, loss: 0.87dB
+13: d800_iso6400_1, gt PSNR: 35.015dB, denoised PSNR: 34.94dB, loss: 0.08dB
+14: d800_iso6400_2, gt PSNR: 33.383dB, denoised PSNR: 33.38dB, loss: 0.00dB
+15: d800_iso6400_3, gt PSNR: 33.313dB, denoised PSNR: 33.02dB, loss: 0.29dB
+Mean of best denoised gt psnr: 37.828dB
+Mean of best denoised psnrs: 37.471dB
