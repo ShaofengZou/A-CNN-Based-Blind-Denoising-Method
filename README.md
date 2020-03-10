@@ -1,5 +1,9 @@
 # A CNN-Based Blind Denoising Method
 
+Official implementation of the BioCAS 2019 paper: [A CNN-Based Blind Denoising Method for Endoscopic Images](https://ieeexplore.ieee.org/document/8918994)
+
+Pytorch implementation of blind denoising network and keras implementation of  blind image quality assessment network.
+
 For blind denoising, we optimize the [Deep Image Prior](http://openaccess.thecvf.com/content_cvpr_2018/html/Ulyanov_Deep_Image_Prior_CVPR_2018_paper.html) method by transfer learning to reduce the number of iteration. 
 
 To determine the quality of reconstructed image, the blind image assessment network based on [MobileNet](https://arxiv.org/abs/1704.04861) is presented to estimate the scores of image quality. 
@@ -164,3 +168,24 @@ You can download the trained model from [here](https://cloud.tsinghua.edu.cn/f/9
 ## Reference
 
 Part of code refers from [deep image prior](https://github.com/DmitryUlyanov/deep-image-prior) and [neural-image-assessment](https://github.com/titu1994/neural-image-assessment).
+
+
+
+## Citation
+
+If you find this project useful, we would be grateful if you cite the paper:
+
+```
+@article{BlindDenoising2019,
+author = {Shaofeng Zou, Mingzhu Long, Xuyang Wang, Xiang Xie, Guolin Li, Zhihua Wang},
+conference = {BioCAS 2019},
+title = {A CNN-Based Blind Denoising Method for Endoscopic Images},
+url = {https://ieeexplore.ieee.org/abstract/document/8918994/},
+year = {2019}
+}
+```
+
+## License
+
+- For academic and non-commercial use only.
+- For commercial use, please contact zousf19@mails.tsinghua.edu.cn
